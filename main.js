@@ -1,7 +1,7 @@
 //crie uma biclioteca que voce pode adicionar, remover, listar livros,
 // os livros possuem os atributos nome, tamanho, autor e genero.
 
-let biblioteca = [];
+const biblioteca = [];
 let estado = "menu";
 let nome, autor, tamanho, genero;
 
