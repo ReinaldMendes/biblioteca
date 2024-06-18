@@ -13,7 +13,7 @@ process.stdin.on("data", function (data) {
 
   if (estado === "menu") {
     if (input === "1") {
-      estado = "adicionar_nome";
+      estado = "adicionar_nominho";
       console.log("Digite o nome do livro:");
     } else if (input === "2") {
       estado = "remover_nome";
