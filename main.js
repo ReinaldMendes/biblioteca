@@ -14,7 +14,7 @@ process.stdin.on("data", function (data) {
   if (estado === "menu") {
     if (input === "1") {
       estado = "adicionar_nominho";
-      console.log("Digite o nome do livro:");
+      console.log("Digite o nome do livro meu amigo:");
     } else if (input === "2") {
       estado = "remover_nome";
       console.log("Digite o nome do livro a ser removido:");
