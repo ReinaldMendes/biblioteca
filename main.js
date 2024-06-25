@@ -58,7 +58,7 @@ process.stdin.on("data", function (data) {
       tamanho: tamanho,
       genero: genero,
     });
-    console.log("Livro adicionado com sucesso!");
+    console.log("Livro adicionado com sucesso, queridão!");
     estado = "menu";
     console.log(
       "Escolha uma opção:\n1. Adicionar livro\n2. Remover livro\n3. Listar livros\n4. Sair"
